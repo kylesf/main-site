@@ -1,47 +1,44 @@
 import React from 'react'
-import Tittle from '../Components/Tittle'
-import ImageSection from '../Components/ImageSection';
-import SkillsSection from '../Components/SkillsSection';
-import ServicesSection from '../Components/ServicesSection';
-import design from '../img/design.svg';
-import intelligence from '../img/intelligence.svg';
-import gamedev from '../img/game-dev.svg';
+import Title from '../Components/Title'
+import ImageSection from '../Components/ImageSection'
+import SkillsSection from '../Components/SkillsSection'
+// import ServicesSection from '../Components/ServicesSection'
+// import intelligence from '../img/intelligence.svg';
+// import design from '../img/design.svg'
+// import gamedev from '../img/game-dev.svg';
 
 function AboutPage() {
     return (
         <div className="AboutPage">
-            <Tittle title={'About Me'} span={'About Me'} />
+            <Title title={'About Me'} span={'About Me'} />
             <ImageSection />
-            <Tittle title={'My Skills'} span={'My Skills'} />
+            <Title title={'Skills'} span={'Skills'} />
             <div className="skillsContainer">
-                <SkillsSection skill={'Javascript'} progress={'60%'} width={'60%'} />
-                <SkillsSection skill={'Typescript'} progress={'30%'} width={'30%'} />
-                <SkillsSection skill={'React Js'} progress={'70%'} width={'70%'} />
-                <SkillsSection skill={'Node Js'} progress={'80%'} width={'80%'} />
-                <SkillsSection skill={'Python'} progress={'90%'} width={'90%'} />
-                <SkillsSection skill={'Lua'} progress={'40%'} width={'40%'} />
-                <SkillsSection skill={'Java'} progress={'80%'} width={'80%'} />
-                <SkillsSection skill={'Web Design'} progress={'25%'} width={'25%'} />
-                <SkillsSection skill={'UI/Ux Design'} progress={'76%'} width={'76%'} />
+                <SkillsSection skill={'Python'} progress={"90%"}/>
+                <SkillsSection skill={'Golang'} progress={"60%"}/>
+                <SkillsSection skill={'Javascript'} progress={"55%"}/>
+                <SkillsSection skill={'React'} progress={"40%"}/>
+                <SkillsSection skill={'NextJS'} progress={"30%"}/>
+                <SkillsSection skill={'C/C++'} progress={"50%"}/>
+                <SkillsSection skill={'Docker'} progress={"80%"}/>
+                <SkillsSection skill={'Postgres'} progress={"80%"}/>
+                <SkillsSection skill={'Terraform'} progress={"70%"}/>
             </div>
-
-            <Tittle title={'Services'} span={'Services'} />
-            <div className="servives-container">
-                <ServicesSection image={design} title={'Web design'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+            {/* <Title title={'Services'} span={'Services'} /> */}
+            {/* <div className="services-container">
+                <ServicesSection image={design} title={'Privacy'} 
+                text={'?'}
                 />
-                <ServicesSection image={intelligence} title={'Artificial Intelligence'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                <ServicesSection image={intelligence} title={'Design'} 
+                text={'?'}
                 />
-                <ServicesSection image={gamedev} title={'Game Development'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
-                />
-
-                
-            </div>
+                <ServicesSection image={gamedev} title={'Programming'} 
+                text={'?'}
+                />                
+            </div> */}
 
         </div>
     )
 }
 
-export default AboutPage;
+export default AboutPage

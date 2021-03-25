@@ -2,7 +2,7 @@ import React from 'react'
 
 function MenuItems({menuItem}) {
     return (
-        <div className="portfolis">
+        <div className="portfolios">
             {
                 menuItem.map((item)=>{
                     return <div className="portfolio" key={item.id}>
@@ -18,7 +18,7 @@ function MenuItems({menuItem}) {
                         <h5>
                             {item.title}
                         </h5>
-                        <p>Placeholder paragraph</p>
+                        <p>{item.description}</p>
                     </div>
                 })
             }

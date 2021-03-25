@@ -1,39 +1,23 @@
 import React from 'react';
-import about from '../img/about.jpg';
+import about from '../img/chip.jpg'
 
 function ImageSection() {
     return (
-        <div className="ImageSection">
+        <div className='ImageSection'>
             <div className="img">
                 <img src={about} alt=""/>
             </div>
             <div className="about-info">
-                <h4>I am<span> Lorem Ipsum</span></h4>
+                <h4>I am<span> Kyle</span></h4>
                 <p className="about-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Voluptatum necessitatibus perferendis numquam dolorem cumque facilis.
-                    Desir per po la ta doso vi slone ve?
+                A software engineer deeply rooted in problem solving and tackling immense challenges. 
+                A strong love for knowledge in software, electronics, automation and stack development.  
+                Currently focusing on writing clean and tested Python code for Backend and CloudOps.
                 </p>
-                <div className="about-details">
-                    <div className="left-section">
-                        <p>Full Name</p>
-                        <p>Age</p>
-                        <p>Nationality</p>
-                        <p>Languages</p>
-                        <p>Address</p>
-                        <p>Countries</p>
-                    </div>
-                    <div className="right-section">
-                        <p>: Lorem Ipsum</p>
-                        <p>: 50</p>
-                        <p>: French</p>
-                        <p>: French, Spanish, English</p>
-                        <p>: 2 Beightbridge, BN7 GB9, United kingdom</p>
-                        <p>: France, Spain, Germany</p>
-                    </div>
-                </div>
-                <button className="btn">Download Cv</button>
-            </div>
+                <form action="https://web.tresorit.com/l/ZjBdU#mX8jULQsQtDB2kb5kDvHWg" method="get" target="_blank">
+                    <button className="btn">Download CV</button>
+                </form>
+            </div> 
         </div>
     )
 }

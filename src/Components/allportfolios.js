@@ -1,81 +1,41 @@
-import port1 from '../img/portImages/maya-1.jpg';
-import port2 from '../img/portImages/port1.jpg';
-import port3 from '../img/portImages/port2.jpg';
-import port4 from '../img/portImages/port3.jpg';
-import port6 from '../img/portImages/port5.jpg';
-import port7 from '../img/portImages/port6.jpg';
+import port1 from '../img/portImages/logo.png';
+import port2 from '../img/portImages/terraform.jpg';
+import port3 from '../img/portImages/esp.jpg';
+
 
 const portfolios = [
     {
         id: 1,
-        category: 'Animation',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        category: 'Business',
+        link1: 'https://theclearicecompany.com',
+        link2: 'https://instagram.com/theclearicecompany/',
+        icon1: 'Site',
+        icon2: 'Insta',
         image: port1,
-        title: 'Autodesk Maya'
+        title: 'Clear Ice Company',
+        description: 'Self Bootstraped Company'
     },
     {
         id: 2,
-        category: 'Python',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        category: 'Terraform',
+        link1: 'https://github.com/San-Jose-Technology-Group/Terraform_Workshop',
+        icon1: 'Code',
+        icon2: 'Demo',
         image: port2,
-        title: 'Python Web Scrapping'
+        title: 'Terraform Workshop',
+        description: 'Deploy Go App to AWS Infrastructure'
     },
     {
         id: 3,
-        category: 'Animation',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        category: 'Hardware',
+        link1: 'https://github.com/San-Jose-Technology-Group/IOT_Workshop_ESP8266',
+        link2: '/',
+        icon1: 'Code',
+        icon2: 'Demo',
         image: port3,
-        title: 'Autodesk Maya'
+        title: 'ESP8266 Workshop',
+        description: 'Fullstack IOT Device'
     },
-    {
-        id: 4,
-        category: 'Javascript',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port4,
-        title: 'Vanilla Javascript Website'
-    },
-    {
-        id: 5,
-        category: 'React Js',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port6,
-        title: 'Getting Started With React'
-    },
-    {
-        id: 6,
-        category: 'React Js',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port7,
-        title: 'Vanilla Javascript Website'
-    },
-    {
-        id: 7,
-        category: 'Test Port',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port4,
-        title: 'Vanilla Javascript Website'
-    }
 ]
 
 export default portfolios;

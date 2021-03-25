@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Tittle({title, span}) {
+function Title({title, span}) {
     return (
         <div className="Title">
             <h3>
@@ -11,4 +11,4 @@ function Tittle({title, span}) {
     )
 }
 
-export default Tittle;
+export default Title;

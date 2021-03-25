@@ -1,12 +1,12 @@
-import React from 'react';
-import Tittle from '../Components/Tittle';
-import allBlogs from '../Components/allBlogs';
+import React from 'react'
+import allBlogs from '../Components/allBlogs'
+import Title from '../Components/Title'
 
-function BlogsPage() {
+function BlogPage() {
     return (
-        <div >
+        <div>
             <div className="b-title">
-                <Tittle title={'Recent Blogs'} span={'Recent Blogs'} />
+                <Title title={'Blog'} span={'Blog'} />
             </div>
             <div className="BlogsPage">
                 {
@@ -22,9 +22,8 @@ function BlogsPage() {
                     })
                 }
             </div>
-            
         </div>
     )
 }
 
-export default BlogsPage;
+export default BlogPage

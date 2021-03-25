@@ -1,38 +1,32 @@
-import React from 'react';
-import {faFacebook} from '@fortawesome/free-brands-svg-icons';
-import {faGithub} from '@fortawesome/free-brands-svg-icons';
-import {faYoutube} from '@fortawesome/free-brands-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {Link} from 'react-router-dom';
+import React from 'react'
+import {faLinkedin, faGithub, faInstagram} from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function HomePage() {
     return (
         <div className="HomePage">
             <header className="hero">
                 <h1 className="hero-text">
-                    Hi, I am 
-                    <span> Lorem Ipsum.</span>
+                    Hi, I am
+                    <span> Kyle </span> ✌️
                 </h1>
                 <p className="h-sub-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Cupiditate facere, numquam vitae placeat consequatur corrupti officia 
-                    quibusdam. Blanditiis doloremque nemo ex facilis neque. 
-                    A sint ipsam earum nemo omnis et.
+                A software engineer and an entrepreneur deeply rooted in problem solving and tackling immense challenges. Currently focusing on writing Python and Go code for Backend and CloudOps.
                 </p>
                 <div className="icons">
-                    <Link to="test" className="icon-holder">
-                        <FontAwesomeIcon icon={faFacebook} className="icon fb" />
-                    </Link>
-                    <Link to="test" className="icon-holder">
-                        <FontAwesomeIcon icon={faGithub} className="icon gh" />
-                    </Link>
-                    <Link to="test" className="icon-holder">
-                        <FontAwesomeIcon icon={faYoutube} className="icon yt"/>
-                    </Link>
+                    <a href='https://www.linkedin.com/in/kylestewartfrantz/' className="icon-holder" >
+                        <FontAwesomeIcon icon={faLinkedin} className="icon fb"/>    
+                    </a>
+                    <a href='https://www.github.com/kylesf/' className="icon-holder">
+                        <FontAwesomeIcon icon={faGithub} className="icon gh"/>    
+                    </a>
+                    <a href='https://instagram.com/theclearicecompany/' className="icon-holder">
+                        <FontAwesomeIcon icon={faInstagram} className="icon yt"/>    
+                    </a>
                 </div>
             </header>
         </div>
     )
 }
 
-export default HomePage;
+export default HomePage
