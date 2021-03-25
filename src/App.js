@@ -16,6 +16,10 @@ function App() {
     setnavToggle(!navToggle)
   }
 
+  const navOffClick = () => {
+    setnavToggle(false)
+  }
+
   return (
     <div className="App">
       <div className={`sidebar ${navToggle ? 'nav-toggle' : ''}`}>
@@ -26,7 +30,7 @@ function App() {
         <div className="lines-2"></div>
         <div className="lines-3"></div>
       </div>
-      <div className="main-content">
+      <div className="main-content" onClick={navOffClick}>
         <div className="content">
           <Switch>
             <Route path='/' exact>
