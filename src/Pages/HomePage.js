@@ -11,7 +11,7 @@ function HomePage() {
                     <span> Kyle </span> ✌️
                 </h1>
                 <p className="h-sub-text">
-                A software engineer and an entrepreneur deeply rooted in problem solving and tackling immense challenges. Currently focusing on writing Python and Go code for Backend and CloudOps.
+                A software engineer currently focusing on Full Stack Development with Python, FastAPI and React.
                 </p>
                 <div className="icons">
                     <a href='https://www.linkedin.com/in/kylestewartfrantz/' className="icon-holder" >
