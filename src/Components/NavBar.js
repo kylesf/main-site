@@ -2,14 +2,14 @@ import React from 'react'
 import avatar from '../img/avatar.png';
 import {NavLink} from 'react-router-dom';
 
-function NavBar() {
+function NavBar({navToggle}) {
     return (
         <div className="NavBar">
             <nav className="nav">
                 <div className="profile">
                     <img src={avatar} alt=""/>
                 </div>
-                <ul className="nav-items">
+                <ul className="nav-items" onClick={() => {navToggle(false)}}>
                     <li className="nav-item">
                         <NavLink to='/' exact activeClassName='active '>
                             Home
