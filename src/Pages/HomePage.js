@@ -1,14 +1,18 @@
 import React from 'react'
 import {faLinkedin, faGithub, faInstagram} from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import avatar from '../img/avatar.png';
 
 function HomePage() {
     return (
         <div className="HomePage">
             <header className="hero">
+                <div className="profile">
+                        <img src={avatar} alt=""/>
+                </div>
                 <h1 className="hero-text">
-                    Hi, I am
-                    <span> Kyle </span> ✌️
+                    Hi, I'm
+                    <span> Kyle </span>
                 </h1>
                 <p className="h-sub-text">
                 A software engineer currently focusing on Full Stack Development with Python, FastAPI and React.
