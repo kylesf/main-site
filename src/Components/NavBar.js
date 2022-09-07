@@ -27,7 +27,7 @@ function NavBar({navToggle}) {
                     </li> 
                     <li className="nav-item">
                         <NavLink to='/blog' exact activeClassName='active '>
-                             Blog
+                            Blog
                         </NavLink>
                     </li>
                 </ul>
