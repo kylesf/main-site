@@ -29,8 +29,7 @@ function HomePage() {
           <span style={styles.highlight}> Full Stack Development</span>, 
           <span style={styles.highlight}> Data Pipelines</span>, 
           and <span style={styles.highlight}>Technical Architecture</span> 
-          in People Analytics at 
-          <a href='https://www.roche.com'>Roche</a>. 
+          <br /> in People Analytics at <a href='https://www.roche.com'>Roche</a>. 
           <br />
           SMB Owner of <a href='https://www.theclearicecompany.com'>The Clear Ice Company</a>
         </p>
