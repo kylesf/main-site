@@ -15,7 +15,7 @@ function HomePage() {
                     <span> Kyle </span>
                 </h1>
                 <p className="h-sub-text">
-                A software engineer focused on Full Stack Development, Data Pipelines and Technical Architecture. <br />SMB Owner of  <a href='https://www.theclearicecompany.com'>The Clear Ice Company</a>
+                A software engineer focused on Full Stack Development, Data Pipelines and Technical Architecture in People Analytics at <a href='https://www.roche.com'>Roche</a>. <br />SMB Owner of  <a href='https://www.theclearicecompany.com'>The Clear Ice Company</a>
                 </p>
                 <div className="icons">
                     <a href='https://www.linkedin.com/in/kylestewartfrantz/' className="icon-holder" >
