@@ -15,15 +15,15 @@ function HomePage() {
                     <span> Kyle </span>
                 </h1>
                 <p className="h-sub-text">
-                A software engineer currently focusing on Full Stack Development with Python, FastAPI and React.
+                A software engineer focused on Full Stack Development, Data Pipelines and Technical Architecture. SMB Owner of  <a href='https://www.theclearicecompany.com'>The Clear Ice Company</a>
                 </p>
                 <div className="icons">
                     <a href='https://www.linkedin.com/in/kylestewartfrantz/' className="icon-holder" >
                         <FontAwesomeIcon icon={faLinkedin} className="icon fb"/>    
                     </a>
-                    <a href='https://www.github.com/kylesf/' className="icon-holder">
-                        <FontAwesomeIcon icon={faGithub} className="icon gh"/>    
-                    </a>
+                    // <a href='https://www.github.com/kylesf/' className="icon-holder">
+                    //     <FontAwesomeIcon icon={faGithub} className="icon gh"/>    
+                    // </a>
                     <a href='https://instagram.com/theclearicecompany/' className="icon-holder">
                         <FontAwesomeIcon icon={faInstagram} className="icon yt"/>    
                     </a>
